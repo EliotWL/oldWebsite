@@ -1,0 +1,70 @@
+/*Used to select style of links in nav var*/
+li a
+{
+	color: white;   /*color of text*/ 
+	text-align: center;
+	padding: 1em 2em;
+   
+	display: block; /*displays as a block making whole link clickable*/
+}
+
+ul
+{
+	margin:0; 	/*no space between edges*/
+	padding:0; /*no padding around nav bar*/ 
+	overflow: hidden;
+	background-color: black;
+	list-style-type: none;
+
+}
+
+/*color changes background to grey and color of text black on hover*/
+li a:hover
+{
+	background-color: grey;
+	color: black;
+}
+
+h1
+{
+	background-color: grey;
+	padding: 5em solid grey;
+	margin: 5em solid grey;
+}
+.div1
+{
+	color:black;
+	padding: 2em solid grey;
+}
+body
+{
+	background-color: #333;
+}
+
+ol li
+{
+	list-style-type: none;
+}
+
+.nav
+{
+	float: left;
+}
+
+.courseBox
+{
+	float: center;
+}
+
+.announceBox
+{
+	float: left;
+}
+
+.announce
+{
+	color: white;
+	padding: 5em solid grey;
+	margin: 5em solid grey;
+	float: center;
+}
