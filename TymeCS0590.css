@@ -1,10 +1,10 @@
 /*Used to select style of links in nav var*/
-li a
+li a, .dropdwnBtn
 {
 	color: white;   /*color of text*/ 
 	text-align: center;
 	padding: 1em 2em;
-   
+    text-decoration: none;
 	display: block; /*displays as a block making whole link clickable*/
 }
 
@@ -19,10 +19,40 @@ ul
 }
 
 /*color changes background to grey and color of text black on hover*/
-li a:hover
+li a:hover, .dropdown:hover
 {
 	background-color: grey;
 	color: black;
+}
+
+li.dropdown
+{
+	display: inline-block;
+}
+
+.dropdownContent
+{
+	display: none;
+	background-color: white;
+}
+
+.dropdownContent a
+{
+	color: black;
+	padding: 5em;
+	display: block;
+	text-align: left;
+	text-decoration: none;
+}
+
+.dropdownContent a:hover
+{
+	background-color: #cccccc;
+}
+
+.dropdown:hover .dropdownContent
+{
+	display: block;
 }
 
 h1
